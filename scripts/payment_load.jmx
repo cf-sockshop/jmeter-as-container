@@ -105,7 +105,7 @@ hm.add(new org.apache.jmeter.protocol.http.control.Header(&quot;x-dynatrace-test
           </elementProp>
           <stringProp name="HTTPSampler.domain">${__P(SERVER_URL,${SERVER_URL})}</stringProp>
           <stringProp name="HTTPSampler.port">${__P(SERVER_PORT,${SERVER_PORT})}</stringProp>
-          <stringProp name="HTTPSampler.protocol"></stringProp>
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
           <stringProp name="HTTPSampler.path">/paymentAuth</stringProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
